@@ -24,10 +24,11 @@ Ti-Device Push module allows register and receive Push Notifications from Device
 ##<a name="automatic_installation"></a> Referencing the module in your Ti mobile application 
 
 Simply add the following lines to your `tiapp.xml` file:
-
+```xml
 <modules>
     <module platform="commonjs">ti-devicepush</module>
 </modules>
+```
 
 ##<a name="module_api"></a> Module API
 ```js
